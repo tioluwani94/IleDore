@@ -1,0 +1,22 @@
+{
+  "name": "iledore",
+  "version": "1.0.0",
+  "description": "IleDore Website Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tioluwani94/IleDore.git"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "author": "Tioluwani Kolawole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tioluwani94/IleDore/issues"
+  },
+  "homepage": "https://github.com/tioluwani94/IleDore#readme"
+}
