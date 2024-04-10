@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tioluwani94/IleDore/issues"
   },
-  "homepage": "https://github.com/tioluwani94/IleDore#readme"
+  "homepage": "https://github.com/tioluwani94/IleDore#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
