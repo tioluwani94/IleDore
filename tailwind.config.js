@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Gill", "sans-serif"],
+      serif: ["Cormorant Garamond", "serif"],
+    },
+    extend: {
+      colors: {
+        lightgray: "#F1F5F8",
+      },
+    },
   },
   plugins: [],
 };

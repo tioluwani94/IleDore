@@ -3,65 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link href="./styles/output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="bg-gray-900">
+    <!-- Hero section -->
+    <div class="bg-black/50">
       <header class="absolute inset-x-0 top-0 z-50">
-        <nav
-          class="flex items-center justify-between p-6 lg:px-8"
-          aria-label="Global"
-        >
-          <div class="flex lg:flex-1">
-            <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
-              <img
-                class="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="flex lg:hidden">
-            <button
-              type="button"
-              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
-            >
-              <span class="sr-only">Open main menu</span>
-              <svg
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        <nav class="flex items-center p-6 bg-black/75" aria-label="Global">
+          <div
+            class="flex items-center justify-between w-full xl:container mx-auto"
+          >
+            <div class="flex lg:flex-1 lg:gap-x-12 items-center">
+              <a href="#" class="-m-1.5 p-1.5">
+                <span class="sr-only">IleDore</span>
+                <img
+                  class="h-10 w-auto"
+                  src="./images/iledore-logo.svg"
+                  alt="IleDore-logo"
                 />
-              </svg>
-            </button>
-          </div>
-          <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#" class="text-sm font-semibold leading-6 text-white"
-              >Product</a
-            >
-            <a href="#" class="text-sm font-semibold leading-6 text-white"
-              >Features</a
-            >
-            <a href="#" class="text-sm font-semibold leading-6 text-white"
-              >Marketplace</a
-            >
-            <a href="#" class="text-sm font-semibold leading-6 text-white"
-              >Company</a
-            >
-          </div>
-          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" class="text-sm font-semibold leading-6 text-white"
-              >Log in <span aria-hidden="true">&rarr;</span></a
-            >
+              </a>
+              <div class="hidden lg:flex lg:gap-x-12">
+                <a
+                  href="#"
+                  class="text-md font-serif font-bold leading-6 text-white hover:text-white/80"
+                  >Home</a
+                >
+                <a
+                  href="#"
+                  class="text-md font-serif font-bold leading-6 text-white flex items-center gap-1 hover:text-white/80"
+                  >Features
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.79718 7.5L10.7972 12.5L15.7972 7.5"
+                      stroke="white"
+                      stroke-width="1.66667"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="text-md font-serif font-bold leading-6 text-white flex items-center gap-1 hover:text-white/80"
+                  >Our Packages
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.79718 7.5L10.7972 12.5L15.7972 7.5"
+                      stroke="white"
+                      stroke-width="1.66667"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="text-md font-serif font-bold leading-6 text-white flex items-center gap-1 hover:text-white/80"
+                  >Resources
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.79718 7.5L10.7972 12.5L15.7972 7.5"
+                      stroke="white"
+                      stroke-width="1.66667"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex lg:hidden">
+              <button
+                type="button"
+                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
+              >
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-4">
+              <a
+                href="#"
+                class="text-md font-serif font-bold leading-6 text-white h-[44px] px-4 flex items-center hover:text-white/80"
+                >Contact</a
+              >
+              <a
+                href="#"
+                class="text-md font-serif font-bold leading-6 h-[44px] px-4 flex items-center bg-white text-black hover:bg-white/80"
+                >Book Now</a
+              >
+            </div>
           </div>
         </nav>
         <!-- Mobile menu, show/hide based on menu open state. -->
@@ -76,8 +144,8 @@
                 <span class="sr-only">Your Company</span>
                 <img
                   class="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                  alt=""
+                  src="./images/iledore-logo.svg"
+                  alt="IleDore-logo"
                 />
               </a>
               <button
@@ -107,7 +175,7 @@
                   <a
                     href="#"
                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                    >Product</a
+                    >Home</a
                   >
                   <a
                     href="#"
@@ -117,12 +185,12 @@
                   <a
                     href="#"
                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                    >Marketplace</a
+                    >Our Package</a
                   >
                   <a
                     href="#"
                     class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                    >Company</a
+                    >Resources</a
                   >
                 </div>
                 <div class="py-6">
@@ -144,81 +212,170 @@
           src="./images/hero.jpeg"
           class="absolute inset-0 -z-10 h-full w-full object-cover"
         />
-        <div
-          class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-          aria-hidden="true"
-        >
-          <div
-            class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-            style="
-              clip-path: polygon(
-                74.1% 44.1%,
-                100% 61.6%,
-                97.5% 26.9%,
-                85.5% 0.1%,
-                80.7% 2%,
-                72.5% 32.5%,
-                60.2% 62.4%,
-                52.4% 68.1%,
-                47.5% 58.3%,
-                45.2% 34.5%,
-                27.5% 76.7%,
-                0.1% 64.9%,
-                17.9% 100%,
-                27.6% 76.8%,
-                76.1% 97.7%,
-                74.1% 44.1%
-              );
-            "
-          ></div>
-        </div>
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
           <div class="text-center">
             <h1
-              class="text-4xl font-normal tracking-tight text-white sm:text-6xl"
+              class="text-4xl font-bold font-sans tracking-tight text-white sm:text-6xl"
             >
               Welcome to IleDore Villa. Your perfect holiday home.
             </h1>
-            <p class="mt-6 text-lg leading-8 text-gray-300">
+            <p class="mt-6 font-serif text-2xl leading-8 text-white">
               Lorem ipsum dolor sit amet consectetur. Tempor faucibus aenean
               posuere sit elit sed. Eget arcu nunc laoreet fames nunc.
             </p>
-            <div class="mt-10 flex items-center justify-center gap-x-6">
+            <div class="mt-12 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                class="bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                >Get started</a
+                class="bg-transparent ring-1 ring-white font-serif px-6 h-[60px] flex items-center text-lg font-bold text-white shadow-sm hover:bg-white hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >Book Now</a
               >
             </div>
           </div>
         </div>
-        <div
-          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-          aria-hidden="true"
-        >
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div class="bg-white py-24">
+      <div class="xl:container mx-auto px-8">
+        <div class="flex flex-col gap-16">
+          <div class="text-center">
+            <p class="text-md font-serif text-gray-500">Property</p>
+            <h1 class="mt-3 font-bold font-sans text-black text-4xl">
+              Your ideal high class vacation home
+            </h1>
+            <p class="mt-5 font-serif text-xl text-gray-500 max-w-3xl mx-auto">
+              Lorem ipsum dolor sit amet consectetur. Ultrices morbi integer
+              tincidunt id. Proin massa aliquam pulvinar quam neque lectus
+              lectus libero tortor.
+            </p>
+            <p
+              class="mt-5 justify-center flex items-center font-serif text-md text-gray-500 gap-1"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 22C13 17 20 16.4183 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 16.4183 11 17 12 22Z"
+                  stroke="#475467"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                  stroke="#475467"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Texas, USA.
+            </p>
+          </div>
+          <div class="flex items-center justify-center">
+            <div class="bg-gray-900 h-[516px] w-[768px]"></div>
+          </div>
           <div
-            class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-            style="
-              clip-path: polygon(
-                74.1% 44.1%,
-                100% 61.6%,
-                97.5% 26.9%,
-                85.5% 0.1%,
-                80.7% 2%,
-                72.5% 32.5%,
-                60.2% 62.4%,
-                52.4% 68.1%,
-                47.5% 58.3%,
-                45.2% 34.5%,
-                27.5% 76.7%,
-                0.1% 64.9%,
-                17.9% 100%,
-                27.6% 76.8%,
-                76.1% 97.7%,
-                74.1% 44.1%
-              );
-            "
-          ></div>
+            class="flex items-center justify-center gap-12 flex-col xl:flex-row"
+          >
+            <div class="xl:w-[25%]">
+              <img class="w-auto" src="./images/hero.jpeg" alt="IleDore-logo" />
+              <div class="mt-6 text-center">
+                <p class="font-sans text-xl font-bold">Perfect Location</p>
+                <p class="mt-2 font-serif text-md text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur. Sagittis tellus
+                  molestie malesuada.
+                </p>
+              </div>
+            </div>
+            <div class="xl:w-[25%]">
+              <img class="w-auto" src="./images/hero.jpeg" alt="IleDore-logo" />
+              <div class="mt-6 text-center">
+                <p class="font-sans text-xl font-bold">Peaceful & Tranquil</p>
+                <p class="mt-2 font-serif text-md text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur. Sagittis tellus
+                  molestie malesuada.
+                </p>
+              </div>
+            </div>
+            <div class="xl:w-[25%]">
+              <img class="w-auto" src="./images/hero.jpeg" alt="IleDore-logo" />
+              <div class="mt-6 text-center">
+                <p class="font-sans text-xl font-bold">Perfect View</p>
+                <p class="mt-2 font-serif text-md text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur. Sagittis tellus
+                  molestie malesuada.
+                </p>
+              </div>
+            </div>
+            <div class="xl:w-[25%]">
+              <img class="w-auto" src="./images/hero.jpeg" alt="IleDore-logo" />
+              <div class="mt-6 text-center">
+                <p class="font-sans text-xl font-bold">Modern</p>
+                <p class="mt-2 font-serif text-md text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur. Sagittis tellus
+                  molestie malesuada.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Packages section -->
+    <div class="bg-lightgray py-24">
+      <div class="xl:container mx-auto px-8">
+        <div class="flex flex-col gap-16">
+          <div>
+            <p class="text-md font-serif text-gray-500">Property</p>
+            <h1 class="mt-3 font-bold font-sans text-black text-4xl">
+              Our Packages
+            </h1>
+            <p class="mt-5 font-serif text-xl text-gray-500 max-w-xl">
+              Spend smarter, lower your bills, get cashback on everything you
+              buy, and unlock credit to grow your business.
+            </p>
+          </div>
+          <div
+            class="flex items-center justify-center gap-10 flex-col xl:flex-row"
+          >
+            <div class="xl:w-[33%]">
+              <img class="w-auto" src="./images/hero.jpeg" alt="IleDore-logo" />
+              <div class="mt-6 text-center">
+                <p class="font-sans text-xl font-bold">Perfect Location</p>
+                <p class="mt-2 font-serif text-md text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur. Sagittis tellus
+                  molestie malesuada.
+                </p>
+              </div>
+            </div>
+            <div class="xl:w-[33%]">
+              <img class="w-auto" src="./images/hero.jpeg" alt="IleDore-logo" />
+              <div class="mt-6 text-center">
+                <p class="font-sans text-xl font-bold">Peaceful & Tranquil</p>
+                <p class="mt-2 font-serif text-md text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur. Sagittis tellus
+                  molestie malesuada.
+                </p>
+              </div>
+            </div>
+            <div class="xl:w-[33%]">
+              <img class="w-auto" src="./images/hero.jpeg" alt="IleDore-logo" />
+              <div class="mt-6 text-center">
+                <p class="font-sans text-xl font-bold">Perfect View</p>
+                <p class="mt-2 font-serif text-md text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur. Sagittis tellus
+                  molestie malesuada.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
