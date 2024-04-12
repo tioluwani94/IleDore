@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    scroll-behavior: smooth;
+  }
   @font-face {
     font-family: "Cormorant Garamond", serif;
     font-weight: 300;

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         box: "#E6E6E6",
+        input: "#D0D5DD",
         divider: "#CECECE",
         lightgray: "#F1F5F8",
       },
