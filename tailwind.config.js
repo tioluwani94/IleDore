@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
-      sans: ["Gill", "sans-serif"],
+      sans: ["Gill Sans MT", "sans-serif"],
       serif: ["Cormorant Garamond", "serif"],
     },
     extend: {

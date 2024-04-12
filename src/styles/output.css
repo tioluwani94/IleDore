@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Gill, sans-serif;
+  font-family: Gill Sans MT, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -550,6 +550,54 @@ video {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Gill Sans MT", sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-display: swap;
+
+  src: url("../fonts/Gill-Sans-MT.ttf");
+}
+
+@font-face {
+  font-family: "Gill Sans MT", sans-serif;
+
+  font-weight: 400;
+
+  font-style: italic;
+
+  font-display: swap;
+
+  src: url("../fonts/Gill-Sans-MT-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Gill Sans MT", sans-serif;
+
+  font-weight: 700;
+
+  font-style: normal;
+
+  font-display: swap;
+
+  src: url("../fonts/Gill-Sans-MT-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gill Sans MT", sans-serif;
+
+  font-weight: 700;
+
+  font-style: italic;
+
+  font-display: swap;
+
+  src: url("../fonts/Gill-Sans-MT-Bold-Italic.ttf");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -860,10 +908,6 @@ video {
   height: 100%;
 }
 
-.h-\[220px\] {
-  height: 220px;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -962,10 +1006,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .gap-x-6 {
@@ -1075,6 +1115,11 @@ video {
   padding: 1.5rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1120,11 +1165,6 @@ video {
   padding-bottom: 0.625rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -1135,13 +1175,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .pb-36 {
   padding-bottom: 9rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
 }
 
 .pt-14 {
@@ -1152,20 +1195,12 @@ video {
   padding-top: 6rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
-}
-
 .text-center {
   text-align: center;
 }
 
 .font-sans {
-  font-family: Gill, sans-serif;
+  font-family: Gill Sans MT, sans-serif;
 }
 
 .font-serif {
@@ -1497,12 +1532,12 @@ video {
     gap: 4rem;
   }
 
-  .lg\:gap-8 {
-    gap: 2rem;
-  }
-
   .lg\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:gap-x-12 {
@@ -1515,21 +1550,6 @@ video {
          column-gap: 1rem;
   }
 
-  .lg\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
-  .lg\:py-56 {
-    padding-top: 14rem;
-    padding-bottom: 14rem;
-  }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1538,5 +1558,15 @@ video {
   .lg\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:py-56 {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
   }
 }
