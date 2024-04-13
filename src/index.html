@@ -28,7 +28,7 @@
                   alt="IleDore-logo"
                 />
               </a>
-              <div class="hidden lg:flex lg:gap-x-12">
+              <div class="hidden lg:flex lg:gap-x-2 xl:gap-x-12">
                 <a
                   href="#"
                   class="text-md font-serif font-bold leading-6 text-white hover:text-white/80"
@@ -99,7 +99,8 @@
             <div class="flex lg:hidden">
               <button
                 type="button"
-                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
+                id="open-mobile-menu-btn"
+                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
               >
                 <span class="sr-only">Open main menu</span>
                 <svg
@@ -133,15 +134,20 @@
           </div>
         </nav>
         <!-- Mobile menu, show/hide based on menu open state. -->
-        <div class="lg:hidden" role="dialog" aria-modal="true">
+        <div
+          id="mobile-menu"
+          role="dialog"
+          aria-modal="true"
+          class="hidden transition-all"
+        >
           <!-- Background backdrop, show/hide based on slide-over state. -->
           <div class="fixed inset-0 z-50"></div>
           <div
-            class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10"
+            class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10"
           >
             <div class="flex items-center justify-between">
               <a href="#" class="-m-1.5 p-1.5">
-                <span class="sr-only">Your Company</span>
+                <span class="sr-only">IleDore</span>
                 <img
                   class="h-8 w-auto"
                   src="./images/iledore-logo.svg"
@@ -150,7 +156,8 @@
               </a>
               <button
                 type="button"
-                class="-m-2.5 rounded-md p-2.5 text-gray-400"
+                id="close-mobile-menu-btn"
+                class="-m-2.5 rounded-md p-2.5 text-white"
               >
                 <span class="sr-only">Close menu</span>
                 <svg
@@ -174,30 +181,35 @@
                 <div class="space-y-2 py-6">
                   <a
                     href="#"
-                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                    class="-mx-3 block px-3 py-2 text-xl font-serif font-semibold leading-7 text-white hover:bg-gray-800"
                     >Home</a
                   >
                   <a
                     href="#"
-                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                    class="-mx-3 block px-3 py-2 text-xl font-serif font-semibold leading-7 text-white hover:bg-gray-800"
                     >Features</a
                   >
                   <a
                     href="#"
-                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                    class="-mx-3 block px-3 py-2 text-xl font-serif font-semibold leading-7 text-white hover:bg-gray-800"
                     >Our Package</a
                   >
                   <a
                     href="#"
-                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                    class="-mx-3 block px-3 py-2 text-xl font-serif font-semibold leading-7 text-white hover:bg-gray-800"
                     >Resources</a
                   >
                 </div>
                 <div class="py-6">
                   <a
                     href="#"
-                    class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                    >Log in</a
+                    class="-mx-3 block px-3 py-2.5 text-xl font-serif font-semibold leading-7 text-white hover:bg-gray-800"
+                    >Contact</a
+                  >
+                  <a
+                    href="#"
+                    class="-mx-3 block px-3 py-2.5 text-xl font-serif font-semibold leading-7 text-white hover:bg-gray-800"
+                    >Book Now</a
                   >
                 </div>
               </div>
@@ -1178,7 +1190,7 @@
             </a>
           </div>
           <p class="font-serif text-md text-gray-500">
-            &copy;IleDore <span id="copyright-date">2024</span>
+            &copy;IleDore <span id="copyright-date"></span>
           </p>
         </div>
       </div>
