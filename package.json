@@ -4,7 +4,8 @@
   "description": "IleDore Website Page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
   },
   "repository": {
     "type": "git",
