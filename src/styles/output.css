@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Gill Sans MT, sans-serif;
+  font-family: GillSansMT, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -551,7 +551,7 @@ video {
 }
 
 @font-face {
-  font-family: "Gill Sans MT", sans-serif;
+  font-family: "GillSansMT";
 
   font-weight: 400;
 
@@ -563,7 +563,7 @@ video {
 }
 
 @font-face {
-  font-family: "Gill Sans MT", sans-serif;
+  font-family: "GillSansMT";
 
   font-weight: 400;
 
@@ -575,7 +575,7 @@ video {
 }
 
 @font-face {
-  font-family: "Gill Sans MT", sans-serif;
+  font-family: "GillSansMT";
 
   font-weight: 700;
 
@@ -587,7 +587,7 @@ video {
 }
 
 @font-face {
-  font-family: "Gill Sans MT", sans-serif;
+  font-family: "GillSansMT";
 
   font-weight: 700;
 
@@ -1192,7 +1192,7 @@ video {
 }
 
 .font-sans {
-  font-family: Gill Sans MT, sans-serif;
+  font-family: GillSansMT, sans-serif;
 }
 
 .font-serif {
